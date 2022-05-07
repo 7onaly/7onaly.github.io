@@ -1,0 +1,103 @@
+header>button {
+    width: 96px;
+    height: 54px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+section {
+    position: absolute;
+    width: 1200px;
+    height: 650px;
+    border: 1px solid gray;
+    background-color: #39C5BB;
+    box-sizing: border-box;
+    padding: 50px 0 0 50px;
+}
+
+.m-bigimg {
+    position: absolute;
+    top: 25px;
+    left: 290px;
+    width: 600px;
+    height: 600px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.m-bigimg>img {
+    width: 500px;
+    height: 500px;
+}
+
+.m-bigimg>button {
+    position: absolute;
+    top: 10px;
+    left: 560px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.m-imgPg>img {
+    width: 200px;
+    height: 200px;
+    margin-right: 18px;
+    margin-top: 50px;
+}
+
+.m-dataPg>button {
+    position: absolute;
+    top: 580px;
+    left: 1020px;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    background-color: green;
+    border: none;
+}
+
+.m-dataPg>li {
+    background-color: white;
+    counter-increment: myIndex;
+    list-style: none;
+    /* border: 1px solid black;
+    border-width: 1px 0; */
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-dataPg>li+li {
+    margin-top: 10px;
+}
+
+/* .m-dataPg>li>button {
+
+} */
+
+.m-dataPg>li::before {
+    content: counter(myIndex);
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 0;
+    padding: 0 10px;
+    font-size: 25px;
+}
+
+/* .m-dataPg>li::after {
+    margin-left: 270px;
+    content: "Delete";
+    background-color: white;
+    border: 1px solid black;
+    padding: 0 10px;
+    font-size: 25px;
+} */
+
+
+
+
+
+

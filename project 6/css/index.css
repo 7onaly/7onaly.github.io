@@ -1,0 +1,218 @@
+body {
+    padding: 10px;
+}
+
+.m-hd-tl>.m-hd-tl-tab>span {
+    background-color: #006699;
+    color: #fff;
+    padding: 4px 10px 4px;
+    border-radius: 3px 3px 0 0;
+    text-align: center;
+    display: block;
+}
+
+.m-hd-tl>.m-hd-tl-tip>span {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 2px 3px;
+    font-size: 15px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.m-hd-tl>.m-hd-tl-tip>span+span {
+    margin-left: 2px;
+}
+
+.m-hd-tl>.m-hd-tl-fun>span {
+    color: #006699;
+}
+
+.m-hd-tl>.m-hd-tl-fun {
+    text-align: right;
+    border: 1px solid gray;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.m-hd-tl {
+    border-bottom: 5px solid #006699 ;
+    width: 1010px;
+}
+
+.ui-grid-row>.ui-grid-2,.ui-grid-21,.ui-grid-4,.ui-grid-17 {
+    margin-bottom: -1px;
+
+}
+
+.m-hd-ctn {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width: 1010px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+header>div:nth-child(2)>div:nth-child(1)>span,
+header>div:nth-child(2)>div:nth-child(2)>span:nth-child(2),
+header>div:nth-child(2)>div:nth-child(2)>span:nth-child(3),
+header>div:nth-child(3)>div:nth-child(1),
+header>div:nth-child(3)>div:nth-child(3) {
+    color: red;
+}
+
+header>div:nth-child(3)>div:nth-child(1)>span:nth-child(1),
+header>div:nth-child(3)>div:nth-child(3)>span:nth-child(1) {
+    color: black;
+}
+
+header>div:nth-child(3)>div:nth-child(2) {
+    font-weight: bold;
+}
+
+header>div:nth-child(3)>div:nth-child(2)>span:first-child {
+    font-weight: normal;
+}
+
+
+header>div:nth-child(2)>div:nth-child(2)>span {
+    line-height: 25px;
+}
+
+header>div:nth-child(2)>div:nth-child(1)>span:nth-child(1),
+header>div:nth-child(2)>div:nth-child(1)>span:nth-child(3) {
+    font-size: 15px;
+}
+
+
+header>div:nth-child(2)>div:nth-child(2)>span:nth-child(1) {
+    color: black;
+}
+
+.m-hd-fun {
+    border: 1px solid gray;
+    width: 1010px;
+    box-sizing: border-box;
+    background-color: #FFFBDE;
+}
+
+.m-hd-fun>div:last-child {
+    text-align: right;
+}
+
+.m-hd-fun>div:last-child>span {
+    color: #006699;
+    text-decoration: underline;
+}
+
+.m-bd-tl {
+    margin-top: 5px;
+    background-color: #CFDCE8;
+    width: 1010px;
+    height: 18px;
+    box-sizing: border-box;
+}
+
+.m-bd-tl>div:first-child {
+    border-left: 0px solid white;
+}
+
+.m-bd-tl>div {
+    border-left:1px solid white;
+    text-align: center;
+    color: #6e9eb5;
+}
+
+
+.m-bd-station>div:nth-child(2)>span {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.m-bd-station {
+    background-color: whitesmoke;
+    width: 1010px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding-top: 8px;
+}
+
+.m-bd-station>div>span:first-child {
+    margin-top: 0;
+}
+
+.m-bd-station>div:first-child,
+.m-bd-station>div:last-child {
+    text-align: right;
+}
+
+
+.m-bd-station>div:last-child>span,
+.m-bd-station>div:last-child>div>span {
+    color: #006699;
+    text-decoration: underline;
+}
+
+.m-bd-station>div:nth-child(3) {
+    text-align: center;
+}
+
+.m-bd-ctn {
+    height: 41px;
+}
+
+.m-bd-ctn>div {
+    text-align: center;
+    border-left: 1px solid gray;
+    height: 40px;
+}
+
+.m-bd-ctn>div:first-child>div:first-child {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.m-bd-ctn>div:nth-child(2) {
+    text-align: left;
+    display: flex;
+}
+
+.m-bd-ctn>div:nth-child(2)>div:first-child {
+    box-sizing: border-box;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.m-bd-ctn>div:nth-child(4) {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.m-bd-ctn>div:nth-child(2)>div:last-child {
+    box-sizing: border-box;
+    margin-left: 10px;
+    color: #006699;
+    text-decoration: underline;
+}
+
+.m-bd-ctn>div:nth-child(2)>div:last-child>button {
+    background-color: #00408F;
+    border: white;
+    color: white;
+    border-radius: 3px;
+    padding: 1px 5px;
+}
+
+.m-bd-ctn>div:first-child {
+    border-left: white;
+}
+
+section>div:nth-child(3)>div:nth-child(2) {
+    border-left: 5px solid #7DC8DA;
+    border-left-style: double;
+}
+
+section>div:nth-child(5)>div:nth-child(2) {
+    border-left: 5px solid #7DC8DA;
+    border-left-style: dashed;
+}

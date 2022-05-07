@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+#home {
+    color: black;
+    padding-left: 64px;
+}
+.m-title {
+    position: relative;
+    color: rgb(109, 108, 108);
+    font-size: 10px;
+    font-weight: bolder;
+    letter-spacing: 0.6px;
+    top:11px
+}
+.m-title+.m-title {
+    margin-left: 19.3px;
+}
+.m-headline {
+    font-size: 18.4px;
+    margin-left: 33px;
+    margin-top: 69px;
+}
+#tops {
+    position: absolute;
+    font-size: 18.4px;
+    left: 769px;
+    top: 89px;
+}
+.m-zone {
+    color: gray;
+    position: relative;
+    top: -56px;
+    font-size: 12.4px;
+    margin-left: 33px;
+}
+.m-detail {
+    color: gray;
+    position: relative;
+    top: -34px;
+    left: 33px;
+    font-size: 12.6px;
+    font-weight: bolder;
+    letter-spacing: -0.1px;
+}
+.m-writer {
+    color: gray;
+    position: relative;
+    top: -33px;
+    left: 33px;
+    font-size: 12px;
+    letter-spacing: -0.3;
+}
+.m-date {
+    color: gray;
+    position: relative;
+    top: -49px;
+    left: 33px;
+    font-size: 12px;
+    letter-spacing: 0;
+}
+img {
+    width: 154px;
+    height: 124px;
+}
+.m-image {
+    position: relative;
+    top: -532px;
+    left: 537px;
+}
+p+p{
+    margin-top: 47px;
+}
+.m-article+.m-article {
+    margin-top: -47px;
+}
+.m-number {
+    color: gray;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 26px;
+    font-weight: normal;
+    letter-spacing: -1;
+}
+.m-tops_headline{
+    color: black;
+    position: relative;
+    top: -77px;
+    left: 43px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    margin-top: 46px;
+}
+.m-tops_writer {
+    color: black;
+    position: relative;
+    top: -78px;
+    left: 44px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+}
+.m-tops_date {
+    color: gray;
+    position: relative;
+    top: -86px;
+    left: 44px;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+}
+.m-tops {
+    position: relative;
+    top: -909px;
+    left: 771px;
+}
+.m-tops+.m-tops {
+    margin-top: -80px;
+}
