@@ -1,1 +1,1 @@
-# 7onlay.github.com
+# 7onaly.github.com
